@@ -1,6 +1,6 @@
 # 🛒 Olist Marketplace Performance Analysis
 
-![Cover](Assets/plist-cover/olist-cover.svg)
+![Cover](Assets/olist-cover/olist-cover.svg)
 
 **Tools:** MySQL · SQL Server · Power BI · Power Query · DAX
 **Dataset:** Brazilian E-Commerce Public Dataset by Olist — 1.5M+ records across 9 source files
