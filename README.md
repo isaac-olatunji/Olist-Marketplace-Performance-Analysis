@@ -175,10 +175,10 @@ Dim Product ── Fact Sales ── Dim Seller
 ![Delivery & Customer Experience](Assets/screenshots/delivery-and-customer-experience/delivery-and-customer-experience-overview.png)
 
 ### Scenario 1 — Problem Investigation (bed_bath_table · 1–2 star reviews)
-![Scenario 1](Assets/screenshots/scenarios/scenario1-executive-summary.png)
+![Scenario 1](Assets/screenshots/scenarios/scenario1/scenario_1-executive-summary.png)
 
 ### Scenario 2 — Performance Investigation (health_beauty · 4–5 star reviews)
-![Scenario 2](Assets/screenshots/scenarios/scenario2-executive-summary.png)
+![Scenario 2](Assets/screenshots/scenarios/scenario2/scenario_2-executive-summary.png)
 
 ---
 
