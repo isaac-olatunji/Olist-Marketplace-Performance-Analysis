@@ -258,7 +258,7 @@ GROUP BY order_id;
 
 ### Sales Trend Over Time
 
-[!Sales Trend Over Time](../Assets/screenshots/sales-performance/sales-trend-over-time.png)
+![Sales Trend Over Time](../Assets/screenshots/sales-performance/sales-trend-over-time.png)
 
 **Insight:** Gross sales reached $7.1M through 2017 and $8.6M by end of 2018. The sales trajectory mirrors the revenue trend — consistent growth with no reversal. The 2017 inflection point shows the marketplace scaling meaningfully, suggesting successful seller acquisition or customer acquisition activities in 2016–2017.
 
@@ -266,7 +266,7 @@ GROUP BY order_id;
 
 ### Revenue by Payment Type
 
-[!Revenue by Payment Type](../Assets/screenshots/sales-performance/revenue-by-payment-type.png)
+![Revenue by Payment Type](../Assets/screenshots/sales-performance/revenue-by-payment-type.png)
 
 **Insight:** Revenue grew month-on-month from late 2016 through 2018, with both Total Revenue and Gross Sales tracking together. The chart confirms no single month experienced a significant reversal. The end of 2017 shows peak monthly revenue, which then stabilises into 2018 — potentially indicating market maturation or seasonal patterns.
 
@@ -289,7 +289,7 @@ GROUP BY order_id;
 
 ### Total Orders by Year
 
-[!Total Orders by Year](../Assets/screenshots/sales-performance/total-orders-by-year.png)
+![Total Orders by Year](../Assets/screenshots/sales-performance/total-orders-by-year.png)
 
 | Year | Orders |
 |---|---:|
@@ -341,7 +341,7 @@ GROUP BY order_id;
 
 ### Product Category by Total Orders
 
-[!Product Category by Total Orders](../Assets/screenshots/product-and-customer-insight/product-category-by-total-roders.png)
+![Product Category by Total Orders](../Assets/screenshots/product-and-customer-insight/product-category-by-total-roders.png)
 
 **Insight:** The scatter plot of Total Orders vs Total Revenue reveals that health_beauty and watches_gifts achieve both high order volume (8K–9K orders) and high revenue ($1M+). computers_accessories achieves comparable revenue despite fewer orders — confirming its high per-unit value. The cluster of lower-left categories represents small-volume, low-revenue lines that may benefit from consolidation or deprioritisation.
 
@@ -366,7 +366,7 @@ GROUP BY order_id;
 
 ### Customer State by Average Spend per Customer
 
-[!Customer State by Average Spend per Customer](../Assets/screenshots/product-and-customer-insight/customer-state-by-average-spend-per-customer.png)
+![Customer State by Average Spend per Customer](../Assets/screenshots/product-and-customer-insight/customer-state-by-average-spend-per-customer.png)
 
 **Insight:** The map shows only a handful of highlighted states for average spend per customer — Montana (MT) and Pennsylvania (PA) appear as top spenders, which is geographically interesting for a Brazilian dataset. This likely reflects state abbreviation mapping issues where Brazilian state codes (e.g. MT = Mato Grosso, PA = Pará) have been rendered on a US map. This is a data mapping issue to investigate and correct in the Power BI geographic layer.
 
@@ -413,7 +413,7 @@ GROUP BY order_id;
 
 ### Revenue by Seller State
 
-![Revenue by Seller State](../Assets/screenshots/seller-performance/revenue-by-seller-state.png)
+[!Revenue by Seller State](../Assets/screenshots/seller-performance/revenue-by-seller-state.png)
 
 **Insight:** Seller revenue is geographically concentrated in a small number of Brazilian states. The map shows only a handful of highlighted states (rendered through the US map proxy), confirming that seller recruitment and revenue generation is not evenly distributed across Brazil. Expanding seller presence into underserved Brazilian states represents a direct growth lever — particularly if paired with logistics infrastructure that supports those regions.
 
@@ -421,7 +421,7 @@ GROUP BY order_id;
 
 ### Seller State by Total Orders
 
-![Seller State by Total Orders](../Assets/screenshots/seller-performance/seller-state-by-total-orders.png)
+[!Seller State by Total Orders](../Assets/screenshots/seller-performance/seller-state-by-total-orders.png)
 
 **Insight:** The order concentration map mirrors the revenue concentration pattern — the same states that generate the most seller revenue also generate the most seller orders. This confirms that geographic concentration is structural rather than category-driven. Diversifying the seller base geographically would need to be paired with customer acquisition in those same regions to be effective.
 
@@ -429,7 +429,7 @@ GROUP BY order_id;
 
 ### Seller Revenue Distribution
 
-![Seller Revenue Distribution](../Assets/screenshots/seller-performance/seller-revenue-distribution.png)
+[!Seller Revenue Distribution](../Assets/screenshots/seller-performance/seller-revenue-distribution.png)
 
 **Insight:** The scatter of Average Revenue per Seller (y-axis) vs Average Freight per Seller (x-axis), with bubble size representing order volume, reveals several important patterns. Seller 858 and Seller 1014 sit at the top of the revenue axis with moderate-to-high freight — consistent with selling high-value or bulky items in volume. Seller 1536 is a notable outlier: positioned furthest right on the freight axis ($50K+) while maintaining high revenue — suggesting a seller specialising in heavy, high-value goods with above-average logistics costs. The dense cluster near the origin ($0K–$10K freight, $0K revenue) represents the long tail of low-activity sellers. The scatter also confirms that revenue and freight are broadly correlated — sellers who generate more revenue tend to have higher freight costs, consistent with higher order volumes or heavier product categories.
 
@@ -437,7 +437,7 @@ GROUP BY order_id;
 
 ## Page 5: Delivery & Customer Experience
 
-![Delivery & Customer Experience](../Assets/screenshots/delivery-experience/delivery-and-customer-experience-overview.png)
+![Delivery & Customer Experience](../Assets/screenshots/delivery-and-customer-experience/delivery-and-customer-experience-overview.png)
 
 ### KPI Cards
 
@@ -476,7 +476,7 @@ GROUP BY order_id;
 
 ### Average Delivery Days by State
 
-![Average Delivery Days by State](../Assets/screenshots/delivery-experience/average-delivery-days-by-state.png)
+![Average Delivery Days by State](../Assets/screenshots/delivery-and-customer-experience/average-delivery-days-by-state.png)
 
 **Insight:** The state delivery map shows significant geographic variation in delivery performance, with the darker (red/orange) states experiencing considerably longer average delivery times than lighter states. Some states appear to exceed 25 days average delivery — more than double the platform average. This geographic delivery disparity is a compounding factor: customers in slower-delivery states experience both longer waits and, as the Review Score Distribution shows, lower satisfaction scores as a direct result.
 
