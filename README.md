@@ -166,13 +166,13 @@ Dim Product ── Fact Sales ── Dim Seller
 ![Sales Performance](Assets/screenshots/sales-performance/sales-performance-overview.png)
 
 ### Product & Customer Insights
-![Product & Customer Insights](Assets/screenshots/product-customer-insights/product-and-customer-insight-overview.png)
+![Product & Customer Insights](Assets/screenshots/product-and-customer-insights/product-and-customer-insight-overview.png)
 
 ### Seller Performance
 ![Seller Performance](Assets/screenshots/seller-performance/seller-performance-overview.png)
 
 ### Delivery & Customer Experience
-![Delivery & Customer Experience](Assets/screenshots/delivery-experience/delivery-and-customer-experience-overview.png)
+![Delivery & Customer Experience](Assets/screenshots/delivery-and--customer-experience/delivery-and-customer-experience-overview.png)
 
 ### Scenario 1 — Problem Investigation (bed_bath_table · 1–2 star reviews)
 ![Scenario 1](Assets/screenshots/scenarios/scenario1-executive-summary.png)
