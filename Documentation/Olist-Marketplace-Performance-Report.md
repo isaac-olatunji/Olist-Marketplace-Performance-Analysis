@@ -166,7 +166,7 @@ GROUP BY order_id;
 
 ## Page 1: Executive Summary
 
-![Executive Summary](Assets/screenshots/executive-summary/executive-summary-overview.png)
+![Executive Summary](../Assets/screenshots/executive-summary/executive-summary-overview.png)
 
 ### KPI Cards
 
@@ -187,7 +187,7 @@ GROUP BY order_id;
 
 ### Revenue Trend Over Time
 
-![Revenue Trend Over Time](Assets/screenshots/executive-summary/revenue-trend-over-time.png)
+![Revenue Trend Over Time](../Assets/screenshots/executive-summary/revenue-trend-over-time.png)
 
 **Insight:** Revenue grew from near-zero in September 2016 to $6.2M through 2017, reaching $7.4M by end of 2018. The trajectory is consistently upward with no reversal — indicating genuine marketplace growth rather than a seasonal spike. The 2016 data represents only a partial year (September–December), which explains the near-zero starting point.
 
@@ -213,7 +213,7 @@ GROUP BY order_id;
 
 ### Revenue by State
 
-![Revenue by State](Assets/screenshots/executive-summary/revenue-by-state.png)
+![Revenue by State](../Assets/screenshots/executive-summary/revenue-by-state.png)
 
 **Insight:** Revenue is concentrated in a small number of states. The map shows only a handful of highlighted states, confirming that the majority of Brazilian states contribute minimally to marketplace revenue. Geographic expansion into underserved states represents a significant growth lever for Olist.
 
@@ -237,7 +237,7 @@ GROUP BY order_id;
 
 ## Page 2: Sales Performance
 
-![Sales Performance](Assets/screenshots/sales-performance/sales-performance-overview.png)
+![Sales Performance](../Assets/screenshots/sales-performance/sales-performance-overview.png)
 
 ### KPI Cards
 
@@ -303,7 +303,7 @@ GROUP BY order_id;
 
 ## Page 3: Product & Customer Insights
 
-![Product & Customer Insights](Assets/screenshots/product-and-customer-insight/product-and-customer-insight-overview.png)
+![Product & Customer Insights](../Assets/screenshots/product-and-customer-insight/product-and-customer-insight-overview.png)
 
 ### KPI Cards
 
@@ -374,7 +374,7 @@ GROUP BY order_id;
 
 ## Page 4: Seller Performance
 
-![Seller Performance](Assets/screenshots/seller-performance/seller-performance-overview.png)
+![Seller Performance](../Assets/screenshots/seller-performance/seller-performance-overview.png)
 
 ### KPI Cards
 
@@ -421,7 +421,7 @@ GROUP BY order_id;
 
 ### Seller State by Total Orders
 
-[!Seller State by Total Orders](../Assets/screenshots/seller-performance/seller-state-by-total-orders.png)
+![Seller State by Total Orders](../Assets/screenshots/seller-performance/seller-state-by-total-orders.png)
 
 **Insight:** The order concentration map mirrors the revenue concentration pattern — the same states that generate the most seller revenue also generate the most seller orders. This confirms that geographic concentration is structural rather than category-driven. Diversifying the seller base geographically would need to be paired with customer acquisition in those same regions to be effective.
 
@@ -429,7 +429,7 @@ GROUP BY order_id;
 
 ### Seller Revenue Distribution
 
-[!Seller Revenue Distribution](../Assets/screenshots/seller-performance/seller-revenue-distribution.png)
+![Seller Revenue Distribution](../Assets/screenshots/seller-performance/seller-revenue-distribution.png)
 
 **Insight:** The scatter of Average Revenue per Seller (y-axis) vs Average Freight per Seller (x-axis), with bubble size representing order volume, reveals several important patterns. Seller 858 and Seller 1014 sit at the top of the revenue axis with moderate-to-high freight — consistent with selling high-value or bulky items in volume. Seller 1536 is a notable outlier: positioned furthest right on the freight axis ($50K+) while maintaining high revenue — suggesting a seller specialising in heavy, high-value goods with above-average logistics costs. The dense cluster near the origin ($0K–$10K freight, $0K revenue) represents the long tail of low-activity sellers. The scatter also confirms that revenue and freight are broadly correlated — sellers who generate more revenue tend to have higher freight costs, consistent with higher order volumes or heavier product categories.
 
@@ -476,7 +476,7 @@ GROUP BY order_id;
 
 ### Average Delivery Days by State
 
-![Average Delivery Days by State](Assets/screenshots/delivery-experience/average-delivery-days-by-state.png)
+![Average Delivery Days by State](../Assets/screenshots/delivery-experience/average-delivery-days-by-state.png)
 
 **Insight:** The state delivery map shows significant geographic variation in delivery performance, with the darker (red/orange) states experiencing considerably longer average delivery times than lighter states. Some states appear to exceed 25 days average delivery — more than double the platform average. This geographic delivery disparity is a compounding factor: customers in slower-delivery states experience both longer waits and, as the Review Score Distribution shows, lower satisfaction scores as a direct result.
 
@@ -520,9 +520,9 @@ One of the most powerful features of the dashboard is its interactive slicer sys
 
 **Question:** Are delivery delays associated with customer dissatisfaction in the bed_bath_table category in São Paulo?
 
-[!Scenario 1 — Executive Summary](Assets/screenshots/scenarios/scenario1/scenario_1-executive-summary.png)
+[!Scenario 1 — Executive Summary](../Assets/screenshots/scenarios/scenario1/scenario_1-executive-summary.png)
 
-[!Scenario 1 — Delivery & Customer Experience](Assets/screenshots/scenarios/scenario1/delivery-and-customer-experience.png)
+[!Scenario 1 — Delivery & Customer Experience](../Assets/screenshots/scenarios/scenario1/delivery-and-customer-experience.png)
 
 | Metric | Scenario 1 Value | Platform Default |
 |---|---:|---:|
@@ -553,9 +553,9 @@ The revenue trend under this filter (declining from $168.6K in 2017 to $160.8K i
 
 **Question:** Does strong audience performance coincide with strong customer experience in the health_beauty category in São Paulo?
 
-[!Scenario 2 — Executive Summary](Assets/screenshots/scenarios/scenario2/scenraio_2-executive-summary.png)
+[!Scenario 2 — Executive Summary](../Assets/screenshots/scenarios/scenario2/scenraio_2-executive-summary.png)
 
-[!Scenario 2 — Delivery & Customer Experience](Assets/screenshots/scenarios/scenario2/delivery-and-customer-experience.png)
+[!Scenario 2 — Delivery & Customer Experience](../Assets/screenshots/scenarios/scenario2/delivery-and-customer-experience.png)
 
 | Metric | Scenario 2 Value | Platform Default |
 |---|---:|---:|
