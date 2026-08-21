@@ -195,8 +195,6 @@ Key opportunities identified:
 
 > *"Effective BI analysis begins long before the dashboard. The dashboard is only the visible layer of a much larger workflow: Data Engineering → Data Quality → Data Modelling → SQL Analysis → Reporting Layer → Business Intelligence."*
 
-> *"Effective BI analysis begins long before the dashboard. The dashboard is only the visible layer of a much larger workflow: Data Engineering → Data Quality → Data Modelling → SQL Analysis → Reporting Layer → Business Intelligence."*
-
 ---
 
 ## 🧩 DAX Measures (Key Examples)
