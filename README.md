@@ -268,5 +268,5 @@ olist-marketplace-performance/
 **Isaac Olatunji**
 Business Intelligence Analyst focused on transforming data into actionable business insights through SQL, Power BI, Excel, and data storytelling.
 
-🔗 GitHub: [isaactheanalyst](https://github.com/isaactheanalyst)
+🔗 GitHub: [isaactheanalyst](https://github.com/isaac-olatunji)
 🔗 LinkedIn: [olatunjiisaac](https://www.linkedin.com/in/olatunjiisaac)
