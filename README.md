@@ -252,7 +252,7 @@ olist-marketplace-performance/
 │   └── Business_Insights.md
 │
 └── PowerBI/
-    └── Olist_Marketplace_Performance.pbix
+    └── Olist-Marketplace-Performance.pbix
 ```
 
 ---
