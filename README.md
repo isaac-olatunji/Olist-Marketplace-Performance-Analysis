@@ -160,7 +160,7 @@ Dim Product ── Fact Sales ── Dim Seller
 ## 📸 Dashboard Preview
 
 ### Executive Summary
-![Executive Summary](Assets/screenshots/executive-summary/executive-summary-overview.png)
+![Executive Summary](Assets/screenshots/executive-summary/Executive-summary-overview.png)
 
 ### Sales Performance
 ![Sales Performance](Assets/screenshots/sales-performance/sales-performance-overview.png)
