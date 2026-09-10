@@ -166,7 +166,7 @@ GROUP BY order_id;
 
 ## Page 1: Executive Summary
 
-![Executive Summary](../Assets/screenshots/executive-summary/executive-summary-overview.png)
+![Executive Summary](../Assets/screenshots/executive-summary/Executive-summary-overview.png)
 
 ### KPI Cards
 
