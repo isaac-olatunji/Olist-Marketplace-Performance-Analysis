@@ -1,4 +1,4 @@
-# 🛒 Olist Marketplace Performance Analysis
+## 🛒 Olist Marketplace Performance Analysis
 
 ![Cover](Assets/olist-cover/olist-cover.svg)
 
@@ -152,6 +152,7 @@ Dim Product ── Fact Sales ── Dim Seller
 | Top Seller | Seller 858 at $229K — top 10 sellers show significant revenue concentration |
 | Seller Efficiency | Average revenue per seller $4.39K on average 31.88 orders per seller |
 | Computers AOV | Highest average order value category at $1,231.84 — 2x the next category |
+| Freight Cost | $2.25M total freight — significant component of overall order cost |
 | Scenario Analysis | Two cross-filter scenarios reveal that delivery speed alone doesn't explain dissatisfaction — product/expectation issues matter too |
 | Best Practice Segment | health_beauty · São Paulo · credit card · high reviews = 7.65 day avg delivery, 78.85% five-star rate, growing revenue |
 
@@ -181,6 +182,8 @@ Dim Product ── Fact Sales ── Dim Seller
 ![Scenario 2](Assets/screenshots/scenarios/scenario2/scenario_2-executive-summary.png)
 
 ---
+
+## 💡 Business Impact
 
 This analysis reveals that Olist's marketplace is growing commercially but faces operational and experience challenges that require attention.
 
@@ -235,15 +238,17 @@ olist-marketplace-performance/
 │   └── olist_ecommerce_clean_database.sql
 │
 ├── Assets/
-│   ├── cover/
-│   │   └── cover.svg
+│   ├── olist-cover/
+│   │   └── olist-cover.svg
 │   └── screenshots/
 │       ├── executive-summary/
 │       ├── sales-performance/
-│       ├── product-customer-insights/
+│       ├── product-and-customer-insight/
 │       ├── seller-performance/
-│       ├── delivery-experience/
+│       ├── delivery-and-customer-experience/
 │       └── scenarios/
+│           ├── scenario1/
+│           └── scenario2/
 │
 ├── Documentation/
 │   ├── Olist_Marketplace_Performance_Report.md
