@@ -154,6 +154,7 @@ GROUP BY order_id;
 ```
 
 ### Model Validation
+
 | Metric | Result |
 |---|---|
 | Fact rows | ~112,650 |
@@ -170,7 +171,7 @@ GROUP BY order_id;
 
 ### KPI Cards
 
-[!KPI Cards](../Assets/screenshots/executive-summary/KPI-cards.png)
+![KPI Cards](../Assets/screenshots/executive-summary/KPI-cards.png)
 
 | Metric | Value |
 |---|---:|
@@ -195,7 +196,7 @@ GROUP BY order_id;
 
 ### Revenue by Product Category
 
-[!Revenue by Product Category](../Assets/screenshots/executive-summary/revenue-by-product-category.png)
+![Revenue by Product Category](../Assets/screenshots/executive-summary/revenue-by-product-category.png)
 
 | Category | Revenue |
 |---|---:|
@@ -207,7 +208,7 @@ GROUP BY order_id;
 | furniture_decor | $0.73M |
 | cool_stuff | $0.64M |
 
-**Insight:** health_beauty and watches_gifts are tightly clustered at the top ($1.26M and $1.21M respectively), suggesting neither has a dominant lead — both are critical categories. The gap between the top two and the rest is meaningful; computers_accessories ($0.91M) trails by $300K+ despite likely having higher per-unit values. This points to lower order volume in high-value categories — a growth opportunity.
+**Insight:** health_beauty and watches_gifts are tightly clustered at the top ($1.26M and $1.21M respectively), suggesting neither has a dominant lead — both are critical categories. computers_accessories ($0.91M) trails by $300K+ despite likely having higher per-unit values. This points to lower order volume in high-value categories — a growth opportunity.
 
 ---
 
@@ -215,13 +216,13 @@ GROUP BY order_id;
 
 ![Revenue by State](../Assets/screenshots/executive-summary/revenue-by-state.png)
 
-**Insight:** Revenue is concentrated in a small number of states. The map shows only a handful of highlighted states, confirming that the majority of Brazilian states contribute minimally to marketplace revenue. Geographic expansion into underserved states represents a significant growth lever for Olist.
+**Insight:** Revenue is geographically concentrated — the darker states on the Brazil map show where marketplace activity is strongest. São Paulo and the south-eastern states dominate, while northern and north-eastern states contribute minimally. Geographic expansion into underserved Brazilian states represents a significant growth lever for Olist.
 
 ---
 
 ### Reviews & Customer Satisfaction
 
-[!Reviews & Customer Satisfaction](../Assets/screenshots/executive-summary/reviews-and-customer_satisfaction.png)
+![Reviews & Customer Satisfaction](../Assets/screenshots/executive-summary/reviews-and-customer_satisfaction.png)
 
 | Review Score | Reviews |
 |---:|---:|
@@ -241,7 +242,7 @@ GROUP BY order_id;
 
 ### KPI Cards
 
-[!Sales KPI Cards](../Assets/screenshots/sales-performance/KPI-cards.png)
+![Sales KPI Cards](../Assets/screenshots/sales-performance/KPI-cards.png)
 
 | Metric | Value |
 |---|---:|
@@ -274,7 +275,7 @@ GROUP BY order_id;
 
 ### Revenue by Payment Installments
 
-[!Revenue by Payment Installments](../Assets/screenshots/sales-performance/revenue-by-payment-installments.png)
+![Revenue by Payment Installments](../Assets/screenshots/sales-performance/revenue-by-payment-installments.png)
 
 | Installments | Revenue |
 |---:|---:|
@@ -307,7 +308,7 @@ GROUP BY order_id;
 
 ### KPI Cards
 
-[!Product KPI Cards](../Assets/screenshots/product-and-customer-insight/KPI-cards.png)
+![Product KPI Cards](../Assets/screenshots/product-and-customer-insight/KPI-cards.png)
 
 | Metric | Value |
 |---|---:|
@@ -323,7 +324,7 @@ GROUP BY order_id;
 
 ### Top 10 Products by Revenue
 
-[!Top 10 Products by Revenue](../Assets/screenshots/product-and-customer-insight/top-10-products-by-revenue.png)
+![Top 10 Products by Revenue](../Assets/screenshots/product-and-customer-insight/top-10-products-by-revenue.png)
 
 | Category | Revenue |
 |---|---:|
@@ -349,7 +350,7 @@ GROUP BY order_id;
 
 ### Product Category by Average Order Value
 
-[!Product Category by Average Order Value](../Assets/screenshots/product-and-customer-insight/product-category-by-avergae-order-value.png)
+![Product Category by Average Order Value](../Assets/screenshots/product-and-customer-insight/product-category-by-avergae-order-value.png)
 
 | Category | AOV |
 |---|---:|
@@ -368,7 +369,7 @@ GROUP BY order_id;
 
 ![Customer State by Average Spend per Customer](../Assets/screenshots/product-and-customer-insight/customer-state-by-average-spend-per-customer.png)
 
-**Insight:** The map shows only a handful of highlighted states for average spend per customer — Montana (MT) and Pennsylvania (PA) appear as top spenders, which is geographically interesting for a Brazilian dataset. This likely reflects state abbreviation mapping issues where Brazilian state codes (e.g. MT = Mato Grosso, PA = Pará) have been rendered on a US map. This is a data mapping issue to investigate and correct in the Power BI geographic layer.
+**Insight:** The Brazil map shows average spend per customer varies across states. Northern and inland states show higher average spend per customer in some cases despite lower total order volumes — suggesting that when customers in those regions do order, they tend to spend more per transaction. This geographic spend pattern is worth monitoring alongside volume concentration to identify where high-value customers are located relative to where marketing and logistics investment is focused.
 
 ---
 
@@ -378,7 +379,7 @@ GROUP BY order_id;
 
 ### KPI Cards
 
-[!Seller KPI Cards](../Assets/screenshots/seller-performance/KPI-card.png)
+![Seller KPI Cards](../Assets/screenshots/seller-performance/KPI-card.png)
 
 | Metric | Value |
 |---|---:|
@@ -389,13 +390,13 @@ GROUP BY order_id;
 | Highest Seller Revenue | $229.47K |
 | Lowest Seller Revenue | $3.50 |
 
-**Insight:** The gap between highest ($229.47K) and lowest ($3.50) seller revenue is extreme — a ratio of over 65,000:1. This is not a minor long-tail effect; it reflects a marketplace where revenue is heavily concentrated in a small number of top-performing sellers while the majority contribute almost nothing. The average of $4.39K per seller is dragged upward by the top performers and does not represent the typical seller experience. Understanding what drives top-seller performance is the key operational question this page is designed to answer.
+**Insight:** The gap between highest ($229.47K) and lowest ($3.50) seller revenue is extreme — a ratio of over 65,000:1. This is not a minor long-tail effect; it reflects a marketplace where revenue is heavily concentrated in a small number of top-performing sellers while the majority contribute almost nothing. The average of $4.39K per seller is dragged upward by the top performers and does not represent the typical seller experience.
 
 ---
 
 ### Top 10 Sellers by Revenue
 
-[!Top 10 Sellers by Revenue](../Assets/screenshots/seller-performance/top-10-sellers-by-revenue.png)
+![Top 10 Sellers by Revenue](../Assets/screenshots/seller-performance/top-10-sellers-by-revenue.png)
 
 | Seller | Revenue |
 |---|---:|
@@ -407,31 +408,31 @@ GROUP BY order_id;
 | Seller 1561 | $176K |
 | Seller 2644 | $160K |
 
-**Insight:** The top 10 sellers are tightly clustered between $160K and $229K — a range of only $69K separating first from seventh. This competitive clustering suggests no single seller has achieved dominant market position; the top performers are operating at comparable scale. Seller 858 leads at $229K and Seller 1014 follows at $223K — a difference of just $6K. This competitive parity at the top makes the long tail even more striking: the majority of 3K sellers sit far below this range.
+**Insight:** The top 10 sellers are tightly clustered between $160K and $229K — a range of only $69K separating first from seventh. This competitive clustering suggests no single seller has achieved dominant market position. Seller 858 leads at $229K and Seller 1014 follows at $223K — a difference of just $6K. This competitive parity at the top makes the long tail even more striking.
 
 ---
 
 ### Revenue by Seller State
 
-[!Revenue by Seller State](../Assets/screenshots/seller-performance/revenue-by-seller-state.png)
+![Revenue by Seller State](../Assets/screenshots/seller-performance/revenue-by-seller-state.png)
 
-**Insight:** Seller revenue is geographically concentrated in a small number of Brazilian states. The map shows only a handful of highlighted states (rendered through the US map proxy), confirming that seller recruitment and revenue generation is not evenly distributed across Brazil. Expanding seller presence into underserved Brazilian states represents a direct growth lever — particularly if paired with logistics infrastructure that supports those regions.
+**Insight:** Seller revenue is geographically concentrated in a small number of Brazilian states — predominantly São Paulo and surrounding south-eastern states as shown on the Brazil map. The lighter-shaded states across the north and north-east contribute minimally. Expanding seller recruitment into underserved states represents a direct growth lever, particularly if paired with logistics infrastructure that supports those regions.
 
 ---
 
 ### Seller State by Total Orders
 
-[!Seller State by Total Orders](../Assets/screenshots/seller-performance/seller-state-by-total-orders.png)
+![Seller State by Total Orders](../Assets/screenshots/seller-performance/seller-state-by-total-orders.png)
 
-**Insight:** The order concentration map mirrors the revenue concentration pattern — the same states that generate the most seller revenue also generate the most seller orders. This confirms that geographic concentration is structural rather than category-driven. Diversifying the seller base geographically would need to be paired with customer acquisition in those same regions to be effective.
+**Insight:** The order concentration map mirrors the revenue concentration pattern — the same states generating the most seller revenue also generate the most seller orders. This confirms that geographic concentration is structural rather than category-driven. Diversifying the seller base geographically would need to be paired with customer acquisition in those same regions to be effective.
 
 ---
 
 ### Seller Revenue Distribution
 
-[!Seller Revenue Distribution](../Assets/screenshots/seller-performance/seller-revenue-distribution.png)
+![Seller Revenue Distribution](../Assets/screenshots/seller-performance/seller-revenue-distribution.png)
 
-**Insight:** The scatter of Average Revenue per Seller (y-axis) vs Average Freight per Seller (x-axis), with bubble size representing order volume, reveals several important patterns. Seller 858 and Seller 1014 sit at the top of the revenue axis with moderate-to-high freight — consistent with selling high-value or bulky items in volume. Seller 1536 is a notable outlier: positioned furthest right on the freight axis ($50K+) while maintaining high revenue — suggesting a seller specialising in heavy, high-value goods with above-average logistics costs. The dense cluster near the origin ($0K–$10K freight, $0K revenue) represents the long tail of low-activity sellers. The scatter also confirms that revenue and freight are broadly correlated — sellers who generate more revenue tend to have higher freight costs, consistent with higher order volumes or heavier product categories.
+**Insight:** The scatter of Average Revenue per Seller (y-axis) vs Average Freight per Seller (x-axis) reveals several patterns. Seller 858 and Seller 1014 sit at the top of the revenue axis with moderate-to-high freight. Seller 1536 is a notable outlier: positioned furthest right on the freight axis ($50K+) while maintaining high revenue — suggesting a seller specialising in heavy, high-value goods. The dense cluster near the origin represents the long tail of low-activity sellers. Revenue and freight are broadly correlated — sellers who generate more revenue tend to have higher freight costs.
 
 ---
 
@@ -441,7 +442,7 @@ GROUP BY order_id;
 
 ### KPI Cards
 
-[!Delivery KPI Cards](../Assets/screenshots/delivery-experience/KPI-cards.png)
+![Delivery KPI Cards](../Assets/screenshots/delivery-and-customer-experience/KPI-cards.png)
 
 | Metric | Value |
 |---|---:|
@@ -452,13 +453,13 @@ GROUP BY order_id;
 | Five-Star Review Rate | 56.55% |
 | One-Star Reviews | 14K |
 
-**Insight:** The juxtaposition of 56.55% five-star rate with 14K one-star reviews (12.6%) is the most important tension in the customer experience data. An average score of 4 masks a deeply bimodal distribution — most customers are satisfied, but a meaningful minority is not, and the gap between those two groups is wide. The delivery and category data on this page helps identify the structural drivers of that dissatisfaction.
+**Insight:** The juxtaposition of 56.55% five-star rate with 14K one-star reviews (12.6%) is the most important tension in the customer experience data. An average score of 4 masks a deeply bimodal distribution — most customers are satisfied, but a meaningful minority is not, and the gap between those two groups is wide.
 
 ---
 
 ### Average Delivery Days by Product Category
 
-[!Average Delivery Days by Product Category](../Assets/screenshots/delivery-and-customer-experience/average-delivery-days-by-product-category.png)
+![Average Delivery Days by Product Category](../Assets/screenshots/delivery-and-customer-experience/average-delivery-days-by-product-category.png)
 
 | Category | Avg Delivery Days |
 |---|---:|
@@ -470,7 +471,7 @@ GROUP BY order_id;
 | furniture_mattress_and_... | 14.4 |
 | home_appliances_2 | 13.9 |
 
-**Insight:** office_furniture at 20.8 days is nearly 70% above the platform average of 12.41 days. The pattern across the top seven slowest categories is clear — large, bulky, or specialist items consistently take longer to deliver. furniture_mattress also appears in the list, reinforcing that size and weight are the primary logistics constraints rather than geographic factors. These categories need category-specific delivery SLAs and dedicated logistics partnerships rather than being managed under the same standard as lightweight consumer goods.
+**Insight:** office_furniture at 20.8 days is nearly 70% above the platform average of 12.41 days. Large, bulky, or specialist items consistently take longer to deliver. These categories need category-specific delivery SLAs and dedicated logistics partnerships rather than being managed under the same standard as lightweight consumer goods.
 
 ---
 
@@ -478,13 +479,13 @@ GROUP BY order_id;
 
 ![Average Delivery Days by State](../Assets/screenshots/delivery-and-customer-experience/average-delivery-days-by-state.png)
 
-**Insight:** The state delivery map shows significant geographic variation in delivery performance, with the darker (red/orange) states experiencing considerably longer average delivery times than lighter states. Some states appear to exceed 25 days average delivery — more than double the platform average. This geographic delivery disparity is a compounding factor: customers in slower-delivery states experience both longer waits and, as the Review Score Distribution shows, lower satisfaction scores as a direct result.
+**Insight:** The Brazil delivery map shows clear geographic variation — northern states (Amazonas, Roraima, and surrounding regions) appear in the darkest red, indicating the longest average delivery times, some exceeding 25 days. The south-eastern states (São Paulo, Rio Grande do Sul) appear in green, reflecting the shortest delivery times. This geographic delivery disparity is a compounding factor: customers in slower-delivery states experience both longer waits and lower satisfaction scores as a direct result.
 
 ---
 
 ### Average Review Score by Product Category
 
-[!Average Review Score by Product Category](../Assets/screenshots/delivery-and-experience/average-review-score-by-product-category.png)
+![Average Review Score by Product Category](../Assets/screenshots/delivery-and-customer-experience/average-review-score-by-product-category.png)
 
 | Category | Avg Review Score |
 |---|---:|
@@ -496,15 +497,15 @@ GROUP BY order_id;
 | books_imported | 4 |
 | books_technical | 4 |
 
-**Insight:** The highest-rated categories — cds_dvds_musicals and fashion_childrens_clothes — are lightweight, compact items that are straightforward to ship quickly and accurately. Their perfect 5-star averages confirm the delivery-satisfaction link: when delivery is fast and reliable, customers are satisfied. Books and flowers also score well, likely for similar reasons. Comparing this list against the slowest delivery categories reveals the pattern: no large-item category appears on the high-review list, and no fast-delivery category appears on the slow-delivery list.
+**Insight:** The highest-rated categories are lightweight, compact items — straightforward to ship quickly and accurately. Their perfect 5-star averages confirm the delivery-satisfaction link. No large-item category appears on the high-review list, and no fast-delivery category appears on the slow-delivery list.
 
 ---
 
 ### Review Score Distribution
 
-[!Review Score Distribution](../Assets/screenshots/delivery-and-experience/review-score-distribution.png)
+![Review Score Distribution](../Assets/screenshots/delivery-and-customer-experience/review-score-distribution.png)
 
-**Insight:** The scatter plot of Average Review Score (y-axis) vs Average Delivery Days (x-axis) with bubble size representing order volume is the most analytically significant visual on this page. SP (São Paulo) anchors the bottom-left — highest order volume, fastest delivery (~8 days), and among the better review scores (~4.1). As delivery days increase moving right across the x-axis, review scores trend downward. States reaching 25–30 average delivery days (MA, AL, RR, AP) cluster at review scores of 3.5 or below. This is not a perfect negative correlation — other factors (product quality, seller communication) also influence reviews — but the directional relationship is clear and visible. Reducing average delivery days in the slowest states would be expected to improve their review scores measurably.
+**Insight:** The scatter plot of Average Review Score (y-axis) vs Average Delivery Days (x-axis) with bubble size representing order volume shows SP (São Paulo) anchoring the bottom-left — highest order volume, fastest delivery (~8 days), and among the better review scores. As delivery days increase moving right, review scores trend downward. States reaching 25–30 average delivery days cluster at review scores of 3.5 or below. The directional relationship is clear and visible.
 
 ---
 
@@ -520,9 +521,9 @@ One of the most powerful features of the dashboard is its interactive slicer sys
 
 **Question:** Are delivery delays associated with customer dissatisfaction in the bed_bath_table category in São Paulo?
 
-[!Scenario 1 — Executive Summary](../Assets/screenshots/scenarios/scenario1/scenario_1-executive-summary.png)
+![Scenario 1 — Executive Summary](../Assets/screenshots/scenarios/scenario1/scenario_1-executive-summary.png)
 
-[!Scenario 1 — Delivery & Customer Experience](../Assets/screenshots/scenarios/scenario1/delivery-and-customer-experience.png)
+![Scenario 1 — Delivery & Customer Experience](../Assets/screenshots/scenarios/scenario1/delivery-and-customer-experience.png)
 
 | Metric | Scenario 1 Value | Platform Default |
 |---|---:|---:|
@@ -537,11 +538,9 @@ One of the most powerful features of the dashboard is its interactive slicer sys
 
 **What the scenario reveals:**
 
-Filtering to review scores 1–2 in São Paulo's bed_bath_table category isolates the dissatisfied customer segment. Several findings emerge:
+Filtering to review scores 1–2 in São Paulo's bed_bath_table category isolates the dissatisfied customer segment. The average delivery time for this dissatisfied segment (12.62 days) is only marginally higher than the platform average (12.41 days). This is an important finding — it suggests that delivery speed alone does not fully explain dissatisfaction in this category and state. Other factors — product quality, seller communication, packaging, or unmet expectations — may be the primary drivers of one-star reviews in bed_bath_table.
 
-The average delivery time for this dissatisfied segment (12.62 days) is only marginally higher than the platform average (12.41 days). This is an important finding — it suggests that delivery speed alone does not fully explain dissatisfaction in this category and state. Other factors — product quality, seller communication, packaging, or unmet expectations — may be the primary drivers of one-star reviews in bed_bath_table.
-
-The revenue trend under this filter (declining from $168.6K in 2017 to $160.8K in 2018) shows that the dissatisfied customer group is also a declining revenue cohort — consistent with churning customers rather than growing ones. This confirms that dissatisfaction in this segment carries a real commercial cost.
+The revenue trend under this filter (declining from $168.6K in 2017 to $160.8K in 2018) shows that the dissatisfied customer group is also a declining revenue cohort — consistent with churning customers rather than growing ones.
 
 **Conclusion for Scenario 1:** Delivery delay is not the sole driver of dissatisfaction in bed_bath_table / São Paulo. A product quality or expectation management investigation is recommended alongside the delivery SLA review.
 
@@ -551,11 +550,11 @@ The revenue trend under this filter (declining from $168.6K in 2017 to $160.8K i
 
 **Filters applied:** São Paulo · health_beauty · Credit Card · Review Score 4–5 · Jan 2016 – Jun 2018
 
-**Question:** Does strong audience performance coincide with strong customer experience in the health_beauty category in São Paulo?
+**Question:** Does strong performance coincide with strong customer experience in the health_beauty category in São Paulo?
 
-[!Scenario 2 — Executive Summary](../Assets/screenshots/scenarios/scenario2/scenraio_2-executive-summary.png)
+![Scenario 2 — Executive Summary](../Assets/screenshots/scenarios/scenario2/scenario_2-executive-summary.png)
 
-[!Scenario 2 — Delivery & Customer Experience](../Assets/screenshots/scenarios/scenario2/delivery-and-customer-experience.png)
+![Scenario 2 — Delivery & Customer Experience](../Assets/screenshots/scenarios/scenario2/delivery-and-customer-experience.png)
 
 | Metric | Scenario 2 Value | Platform Default |
 |---|---:|---:|
@@ -568,13 +567,11 @@ The revenue trend under this filter (declining from $168.6K in 2017 to $160.8K i
 
 **What the scenario reveals:**
 
-The health_beauty / São Paulo / high-review segment tells the opposite story to Scenario 1. Average delivery days drop to 7.65 — nearly 40% faster than the platform average of 12.41 days. Review scores average 5 and the five-star rate reaches 78.85%, significantly above the platform average of 56.55%.
+The health_beauty / São Paulo / high-review segment tells the opposite story to Scenario 1. Average delivery days drop to 7.65 — nearly 40% faster than the platform average. Review scores average 5 and the five-star rate reaches 78.85%, significantly above the platform average.
 
-The revenue trend is strongly positive: growing from $1K in 2016 to $123K through 2017 and reaching $175K by end of 2018. This is not coincidental — satisfied customers in fast-delivery categories with high review scores are also the customers who continue buying and drive revenue growth.
+The revenue trend is strongly positive: growing from $1K in 2016 to $123K through 2017 and reaching $175K by end of 2018. Satisfied customers in fast-delivery categories are also the customers who continue buying and drive revenue growth.
 
-The delivery performance for health_beauty in this scenario (7.65 days) is 4.76 days faster than the platform average. This is the clearest demonstration in the entire dashboard that delivery speed and customer satisfaction are structurally linked — and that the categories and states where both are strong are also where commercial performance is strongest.
-
-**Conclusion for Scenario 2:** health_beauty in São Paulo with credit card payments represents a best-practice segment — fast delivery, high satisfaction, strong revenue growth. The combination of lightweight product, concentrated geography (São Paulo is the largest Brazilian state by population), and credit card payment reliability creates optimal conditions for marketplace performance. This segment should be studied and replicated where possible.
+**Conclusion for Scenario 2:** health_beauty in São Paulo with credit card payments represents a best-practice segment — fast delivery, high satisfaction, strong revenue growth. This segment should be studied and replicated where possible.
 
 ---
 
@@ -589,9 +586,11 @@ The delivery performance for health_beauty in this scenario (7.65 days) is 4.76 
 | Revenue Trend | Declining | Strongly growing |
 | Key Insight | Dissatisfaction not fully explained by delivery | Fast delivery + satisfaction = revenue growth |
 
-**The scenarios together answer the central operational question:** delivery speed is a necessary but not sufficient condition for satisfaction. In Scenario 1, marginal delivery delays exist but are not the primary driver of dissatisfaction — product or expectation issues matter too. In Scenario 2, fast delivery is the foundation on which excellent customer experience and strong revenue growth are built. Both scenarios reinforce that delivery and satisfaction must be managed together, not treated as independent metrics.
+**The scenarios together answer the central operational question:** delivery speed is a necessary but not sufficient condition for satisfaction. In Scenario 1, marginal delivery delays exist but are not the primary driver of dissatisfaction — product or expectation issues matter too. In Scenario 2, fast delivery is the foundation on which excellent customer experience and strong revenue growth are built.
 
 ---
+
+## Key Findings
 
 | # | Finding |
 |---|---|
@@ -603,7 +602,7 @@ The delivery performance for health_beauty in this scenario (7.65 days) is 4.76 
 | 6 | Average delivery time of 12.41 days; office_furniture at 20.8 days — large-item logistics are the primary delivery problem |
 | 7 | Delivery speed is the primary driver of customer satisfaction — slow categories receive lower review scores consistently |
 | 8 | Top seller ($229.47K) vs lowest seller ($3.50) — extreme revenue concentration; long tail contributes minimally |
-| 9 | Revenue is geographically concentrated — most Brazilian states contribute minimal marketplace activity |
+| 9 | Revenue is geographically concentrated in south-eastern states — most of Brazil contributes minimal marketplace activity |
 | 10 | Average spend per customer ($137.75) matches AOV — most customers appear to make single purchases, indicating low repeat rate |
 
 ---
@@ -628,8 +627,8 @@ Average spend per customer matching AOV suggests single-purchase behaviour domin
 ### 6. Geographic Expansion
 Revenue and seller activity concentrate in a small number of Brazilian states. Systematic seller recruitment in underserved states — combined with logistics capability — represents the largest single growth lever available to the marketplace.
 
-### 7. Investigate the US Map Issue
-The Customer State by Average Spend map is rendering Brazilian state codes on a US map. This should be corrected to a Brazil map to accurately represent geographic customer spend patterns.
+### 7. Fix the Five-Star Rate DAX Under Low-Review Filters
+The 340.08% five-star rate in Scenario 1 is a DAX calculation anomaly — the denominator produces a mismatch under restrictive review filters. Review the `Five Star Review Rate` measure logic to handle edge cases.
 
 ---
 
